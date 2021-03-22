@@ -8,9 +8,10 @@ Arduino Uno
 
 Liquid Crystal Display (LCD) 1602 IIC I2C
 
-5 Sensors
+6 Sensors
   - DHT11 Temperature / Humidity Sensor
   - MH-RD Raindrops module
   - KY-037 MH Microphone
   - KY-022 IR Infrared Sensor
+  - KY-005 IR Infrared Sensor
   - KY-018 Photosensitive module
