@@ -1,4 +1,17 @@
 // Alba Elektronica @ 2020
+// A combination between two experiments: the rain sensor and the humidity sensors. 
+// Results are displaied on an LCD and serial monitor. 
+//
+//
+// LCD pinout
+// A5  SCL, A4  SDA, 5V VCC, GND  GND
+//
+// MH-RD pinout
+// sensorRain -->  1024 maxim, 0 minim
+// Vcc  7,  GND  14 (GND), D0  8, A0  A0  
+//
+// KY-015 pinout
+// S  2,  +  3.3V,  -  GND 
 
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
@@ -12,16 +25,6 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 #define DHTPIN 2
 DHT dht(DHTPIN, DHTTYPE);
 uint32_t delayMS;
-
-
-// sensorRain -->  1024 maxim, 0 minim
-
-// LCD pinout
-// A5  SCL, A4  SDA, 5V VCC, GND  GND
-// MH-RD pinout
-// Vcc  7,  GND  14 (GND), D0  8, A0  A0  
-// KY-015 pinout
-// S  2,  +  3.3V,  -  GND 
 
 #define sensorPower 7
 
