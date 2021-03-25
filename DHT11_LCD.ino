@@ -1,4 +1,13 @@
 // Alba Elektronica @ 2020
+// Experiments with the humidity / temperature sensor
+// The temperature is display on both a serial monitor and an LCD display.
+//
+// LCD pinout
+// A5  SCL, A4  SDA, 5V VCC, GND  GND
+// KY-015 pinout
+// S  2,  +  3.3V,  -  GND 
+//
+
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
@@ -11,11 +20,6 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 #define DHTPIN 2
 DHT dht(DHTPIN, DHTTYPE);
 uint32_t delayMS;
-
-// LCD pinout
-// A5  SCL, A4  SDA, 5V VCC, GND  GND
-// KY-015 pinout
-// S  2,  +  3.3V,  -  GND 
 
 void setup(){
   lcd.init();                      // initialize the lcd 
