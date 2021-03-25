@@ -1,14 +1,17 @@
 // Alba Elektronica @ 2020
+// An experiment with the rain / water drops sensor. SensorRain -->  1024 maxim, 0 minim.
+// The input is displaied on both an LCD and the serial output.
+//
+// LCD pinout
+// A5  SCL, A4  SDA, 5V VCC, GND  GND
+//
+// MH-RD pinout
+// Vcc  7,  GND  14 (GND), D0  8, A0  A0  
+
 
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27,16,2);
-// sensorRain -->  1024 maxim, 0 minim
-
-// LCD pinout
-// A5  SCL, A4  SDA, 5V VCC, GND  GND
-// MH-RD pinout
-// Vcc  7,  GND  14 (GND), D0  8, A0  A0  
 
 #define sensorPower 7
 //#define sensorPin 8
