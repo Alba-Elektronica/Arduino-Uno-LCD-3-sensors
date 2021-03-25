@@ -1,15 +1,17 @@
 // Alba Elektronica @ 2020
+// Experimenten with microphone on the analog pin A0
+// The level of noise is outputed on LCD
+//
+// LCD pinout
+// A5  SCL, A4  SDA, 5V VCC, GND  GND
+// KY-037 pinout
+// D0  9, Vcc  6,  GND  14 (GND), A0  A0  
 
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27,16,2);
 
 #define sensorPower2 6
-
-// LCD pinout
-// A5  SCL, A4  SDA, 5V VCC, GND  GND
-// KY-037 pinout
-// D0  9, Vcc  6,  GND  14 (GND), A0  A0  
 
 int sensorPin = A0; // select the input pin for the potentiometer
 int ledPin = 9; // select the pin for the LED
