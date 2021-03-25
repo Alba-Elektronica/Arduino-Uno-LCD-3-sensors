@@ -20,4 +20,6 @@ Required components:
 There is a short description of the pinout for each experiment in the header of each file. 
 A brief description of the experiments:
 1. Micro-LCD - a microphone on the analog pin A0. The level of noise is outputed on LCD.
-2. 
+2. DHT11-LCD - the humidity / temperature sensor. The temperature is displaied on both a serial monitor and an LCD display.
+3. 
+
