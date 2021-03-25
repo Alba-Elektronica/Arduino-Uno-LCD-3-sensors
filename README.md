@@ -21,5 +21,5 @@ There is a short description of the pinout for each experiment in the header of 
 A brief description of the experiments:
 1. Micro-LCD - a microphone on the analog pin A0. The level of noise is outputed on LCD.
 2. DHT11-LCD - the humidity / temperature sensor. The temperature is displaied on both a serial monitor and an LCD display.
-3. 
-
+3. MHRD-LCD  - the rain / water drops sensor. The input is displaied on both an LCD and the serial output.
+4. 
