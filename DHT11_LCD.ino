@@ -1,6 +1,6 @@
 // Alba Elektronica @ 2020
 // Experiments with the humidity / temperature sensor
-// The temperature is display on both a serial monitor and an LCD display.
+// The temperature is displaied on both a serial monitor and an LCD display.
 //
 // LCD pinout
 // A5  SCL, A4  SDA, 5V VCC, GND  GND
