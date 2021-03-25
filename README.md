@@ -19,3 +19,5 @@ Required components:
 
 There is a short description of the pinout for each experiment in the header of each file. 
 A brief description of the experiments:
+1. Experimenten with microphone on the analog pin A0. The level of noise is outputed on LCD.
+2. 
