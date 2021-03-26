@@ -1,4 +1,4 @@
-# Arduino-Uno-LCD-6-sensors
+# Arduino-Uno-LCD-5-sensors
 Experiments with sensors for Auduino-Uno-LCD-5-sensors kit
 
 Each file corresponds to one combination Arduino Uno + LCD + one /two / three sensors.
