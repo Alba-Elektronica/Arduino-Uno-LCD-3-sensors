@@ -1,6 +1,6 @@
 /*
  * Alba Elektronica @ 2021 
- * IR test receiver + transmitter 
+ * IR test read serial input --> receiver  --> sensor -->  transmit data 
  * 
  * initialize LCD & temp / IR sensors
  * Loop pseudo code:
