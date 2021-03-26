@@ -1,5 +1,5 @@
 # Arduino-Uno-LCD-5-sensors
-Experiments with sensors for Auduino-Uno-LCD-5-sensors kit
+Experiments with sensors for Arduino-Uno-LCD-5-sensors kit
 
 Each file corresponds to one combination Arduino Uno + LCD + one /two / three sensors.
 Pinouts are specified in the corresponding file. 
@@ -20,8 +20,8 @@ Components:
 
 There is a short description of the pinout for each experiment in the header of each file. 
 A brief description of the experiments:
-1. DHT11-LCD - the humidity / temperature sensor. The temperature is displaied on both a serial monitor and an LCD display.
-2. MHRD-LCD  - the rain / water drops sensor. The input is displaied on both an LCD and the serial output.
-3. MHRD-LCD-DHT11 - a combination between two experiments: the rain sensor and the humidity sensors. Results are displaied on an LCD and serial monitor. 
-4. IRTest_receiver_read_tranceiver - infrared sensors are combined with humidity sensors. Input data in a serial monitor of arduino will start the experiment. LCD displays the readings from experiments. 
-5. 
+1. DHT11-LCD - the humidity / temperature sensor. The temperature is displayed on both a serial monitor and an LCD.
+2. MHRD-LCD  - the rain / water drops sensor. The input is displayed on both an LCD and the serial output.
+3. MHRD-LCD-DHT11 - a combination of two experiments: the rain sensor and the humidity sensors. Results are displayed on an LCD and serial monitor. 
+4. IRTest_receiver_read_transceiver - infrared sensors are combined with the humidity sensor. Input data in a serial monitor of Arduino will start the experiment. LCD the readings from experiments. 
+5. IRTest_tranceiver_receiver - infrared sensors are combined with the humidity sensor. The experiment starts when pushing any key of the remote control.
